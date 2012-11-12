@@ -1,0 +1,129 @@
+/**
+ * Dark Gray Large
+ */
+
+#header-interior,
+#nav-sub {
+	border-bottom: #fdfaf3 solid 2px;
+	border-right: #fdfaf3 solid 2px;
+	margin-bottom: 8px;
+	margin-right: 8px; 
+	
+	box-shadow: 1px 1px 0 #929497,
+				2px 2px 0 #929497,
+				3px 3px 0 #929497,
+				4px 4px 0 #929497,
+				5px 5px 0 #929497,
+				6px 6px 0 #929497,
+				7px 7px 0 #929497,
+				8px 8px 0 #929497; /* Standard. Opera 10.5, IE9 */
+	
+	-moz-box-shadow:	1px 1px 0 #929497,
+						2px 2px 0 #929497,
+						3px 3px 0 #929497,
+						4px 4px 0 #929497,
+						5px 5px 0 #929497,
+						6px 6px 0 #929497,
+						7px 7px 0 #929497,
+						8px 8px 0 #929497; /* FF3.5+ */
+	
+	-webkit-box-shadow: 	1px 1px 0 #929497,
+							2px 2px 0 #929497,
+							3px 3px 0 #929497,
+							4px 4px 0 #929497,
+							5px 5px 0 #929497,
+							6px 6px 0 #929497,
+							7px 7px 0 #929497,
+							8px 8px 0 #929497; /* Saf3+, Chrome */
+}
+
+/**
+ * Dark Gray Small
+ */
+
+#site-name,
+.form-search {
+	margin-bottom: 2px;
+	margin-right: 1px; 
+	box-shadow: 1px 2px 0 #afada9; /* Standard. Opera 10.5, IE9 */
+	-moz-box-shadow:	1px 2px 0 #afada9; /* FF3.5+ */
+	-webkit-box-shadow: 	1px 2px 0 #afada9; /* Saf3+, Chrome */
+}
+
+
+/**
+ * Light Gray Large
+ */
+
+#masthead .carousel,
+#nav-breadcrumbs,
+.page-title,
+.post,
+.post-excerpt,
+#sidebar .widget .header,
+#sidebar .widget .body {
+	border-bottom: #fdfaf3 solid 2px;
+	border-right: #fdfaf3 solid 2px;
+	margin-bottom: 8px;
+	margin-right: 8px; 
+	
+	box-shadow: 1px 1px 0 #d0d2d3,
+				2px 2px 0 #d0d2d3,
+				3px 3px 0 #d0d2d3,
+				4px 4px 0 #d0d2d3,
+				5px 5px 0 #d0d2d3,
+				6px 6px 0 #d0d2d3,
+				7px 7px 0 #d0d2d3,
+				8px 8px 0 #d0d2d3; /* Standard. Opera 10.5, IE9 */
+	
+	-moz-box-shadow: 	1px 1px 0 #d0d2d3,
+						2px 2px 0 #d0d2d3,
+						3px 3px 0 #d0d2d3,
+						4px 4px 0 #d0d2d3,
+						5px 5px 0 #d0d2d3,
+						6px 6px 0 #d0d2d3,
+						7px 7px 0 #d0d2d3,
+						8px 8px 0 #d0d2d3; /* FF3.5+ */
+	
+	-webkit-box-shadow: 	1px 1px 0 #d0d2d3,
+							2px 2px 0 #d0d2d3,
+							3px 3px 0 #d0d2d3,
+							4px 4px 0 #d0d2d3,
+							5px 5px 0 #d0d2d3,
+							6px 6px 0 #d0d2d3,
+							7px 7px 0 #d0d2d3,
+							8px 8px 0 #d0d2d3; /* Saf3+, Chrome */
+}
+
+
+/**
+ * Light Gray Small
+ */
+
+.cat-grid .cat a,
+.form-contact .text input,
+.form-contact textarea,
+.post .datetime,
+.post .footer {
+	margin-bottom: 2px;
+	margin-right: 1px; 
+	box-shadow: 1px 2px 0 #bebbb6; /* Standard. Opera 10.5, IE9 */
+	-moz-box-shadow:	1px 2px 0 #bebbb6; /* FF3.5+ */
+	-webkit-box-shadow: 	1px 2px 0 #bebbb6; /* Saf3+, Chrome */
+}
+
+
+/**
+ * Exceptions
+ */
+
+/* Applying shadow to main nav items using background image.  Adding fancy hover transitions, and using backgrounds will be easier in IE */
+#nav-main a {
+	background: url(../img/sprite-y.8bit.png) right -800px no-repeat;
+	padding: 0 10px 10px 0; 
+}
+/* Resets */
+#nav-main .sub-menu a {
+	border: 0;
+	padding: 0;
+}

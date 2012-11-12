@@ -1,0 +1,40 @@
+/* Open Sans */
+#footer,
+#nav-main,
+#nav-sub,
+#nav-breadcrumbs,
+.cat-title,
+.form-contact,
+.page-title,
+.post .footer,
+.post .content h2,
+.widget {
+	font-family: 'open-sans', sans-serif;
+}
+
+/* Open Sans - Semi Bold */
+label.placeholder,
+.form-search input[type='text'] {
+	font-family: 'open-sans-semi', sans-serif;
+}
+
+/* Serif6 Beta */
+#masthead .title,
+.post .datetime,
+.post .header {
+	font-family: 'serif6-beta', serif;
+}
+
+/* Serif12 Beta */
+#footer .widget .body,
+#footer .item .body {
+	font-family: 'serif12-beta', serif;
+}
+
+/* Serif72 Beta */
+body,
+.form-contact .check-add-me,
+.widget_featured .content {
+	font-family: 'serif72-beta', serif;
+}
+

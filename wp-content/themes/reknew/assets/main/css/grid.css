@@ -1,0 +1,23 @@
+.col {
+	float: left;
+	margin-left: 28px;
+}
+.col-ab {
+	width: 672px;
+}
+.col-c {
+	width: 240px;
+}
+
+
+/* Left Column Resets */
+.col-a,
+.col-ab,
+.col-abc {
+	margin-left: 0;
+}
+
+/* Float Reset */
+.col-abc {
+	float: none;
+}

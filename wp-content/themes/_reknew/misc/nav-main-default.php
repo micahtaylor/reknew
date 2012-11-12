@@ -1,0 +1,1 @@
+ cfct_misc('masthead');

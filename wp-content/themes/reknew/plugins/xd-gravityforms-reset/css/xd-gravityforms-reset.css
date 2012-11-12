@@ -1,0 +1,11 @@
+/**
+ * GravityForms Style Overrides
+ */
+
+.gfield_checkbox input {
+	margin-right: 3px;
+}
+.label-hide .gfield_label {
+	display: none !important;
+}
+

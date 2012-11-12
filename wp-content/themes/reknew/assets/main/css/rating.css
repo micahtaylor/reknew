@@ -1,0 +1,11 @@
+.post .kk-ratings {
+	position: absolute;
+	right: 0;
+	top: -6px;
+}
+.post .kk-ratings .hover-panel a:active {
+	outline: 0;
+}
+.post .casting-thanks {
+	display: none;
+}

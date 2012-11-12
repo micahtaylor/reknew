@@ -1,0 +1,50 @@
+/* ==|== non-semantic helper classes ======================================== */
+.imr { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.imr br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+
+/**
+ * Clearfix base style.  Also clearfix various structural elements.
+ */
+.clearfix:before, .clearfix:after,
+#main:before, #main:after,
+#nav-main .sub-menu:before, #nav-main .sub-menu:after,
+#footer-panel:before, #footer-panel:after,
+#footer .in:before, #footer .in:after,
+.col:before, .col:after,
+.widget:before, .widget:after,
+.nav:before, .nav:after { content: ""; display: table; }
+
+.clearfix:after,
+#main:after,
+#nav-main .sub-menu:after,
+#footer .in:after,
+#footer-panel:after,
+.col:after,
+.widget:after,
+.nav:after { clear: both; }
+
+.clearfix,
+#main,
+#nav-main .sub-menu,
+#footer .in,
+#footer-panel,
+.col,
+.widget,
+.nav { zoom: 1; }
+
+
+/**
+ * Nav
+ */
+
+.nav {
+	list-style-type: none;
+	margin: 0;
+}
+.nav li {
+	float: left;
+}
